@@ -2,7 +2,7 @@ $servers=Get-Content ".\serverslist.txt"
 
 foreach($server in $servers){
 
-    cmdkey /generic:$server /user:"Domain\UserName" /pass:"Password"
+    cmdkey /generic:$server /user:"Brice" /pass:"B0r34l$"
     
     mstsc /v: $server
     
