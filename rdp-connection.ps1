@@ -13,7 +13,7 @@ foreach($server in $servers){
     
     #to bypass the security alerts or certificate errors that has to be done manually
     
-    sleep 5
+    sleep 20
     
     cmdkey /delete:$server
 }
