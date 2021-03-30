@@ -1,3 +1,6 @@
+$envname=$args[1]
+Write-Host $envname
+
 $servers=Get-Content ".\serverslist.txt"
 
 foreach($server in $servers){
